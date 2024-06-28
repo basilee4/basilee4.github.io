@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding: 0;
+    
+}
+.titulo {
+    font-size: 6.3rem;
+    font-weight: lighter;
+    text-align: center;
+    color:rgb(18, 17, 17);
+}
+.header-color {
+    background-color: blanchedalmond;
+    position: sticky;
+    top: 0;
+}
+.contenedor {
+    width: 100%;
+}
+
+.carousel-1 {
+    width: 50%;
+}
+
+.nav { 
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+      
+
+}
+
+a {
+    color: rgb(0, 255, 213);
+}
+
+.link-home {
+    color: rgb(208, 16, 214);
+    transition: all 2s ease;
+}
+.link-home:hover {
+    transform: scale(1.1);
+    color: aquamarine;
+}
+.link-zapatillas:hover {
+    transform: scale(1.1);
+    color: aquamarine;
+}
+.link-zapatillas {
+    transition: all 2s ease;
+}
+.link-local:hover {
+    transform: scale(1.1);
+    color: aquamarine;
+}
+.link-local {
+    transition: all 2s ease;
+}
+
+nav ul a {
+    color: rgb(18, 17, 17);
+    text-decoration: none;
+
+}
+.portada-nike {
+    border-radius: 2%;
+    width: 1000px;
+}
+
+
+/* footer */
+.ig-wsp {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+}
+.icono-wsp {
+    color: rgb(rgb(64, 165, 64));
+    font-size: 30px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    transition:all 1.5s linear;
+}
+.icono-wsp:hover {
+    transform: rotate(90deg);
+}
+.copyright {
+    font-style: italic;
+}
+.contactos {
+    text-transform: capitalize;
+}
+
+/* productos */
+.producto-2 {
+    text-transform: capitalize;
+    border-radius: 2%;
+}
+.air-producto {
+    width: 6rem;
+    border-radius: 2%;
+}
+.pedidos {
+    background-color: aliceblue;
+    border:solid 2px black ;
+     /* padding: 20px; para todos*/ 
+   /*  padding-top: 20px;
+    padding-right: 30px;        se modifican las 4 cada una por separado
+    padding-bottom: 50px;
+    padding-left: 40; */
+    /* padding: 20px 30px 40px 50px; se modifican todos con una medida distinta*/ 
+    /* padding: 20px (arriba abajo) 40px (hizquierda derecha); */
+    padding: 5px;
+    /* margin: 20px; funciona igual que el padding*/ 
+    /* margin: 20px 40px; */
+}
+.back-cat {
+    display: flex;
+    justify-content: start;
+    
+}
+.black-catcm {
+    background-color: aliceblue;
+    border:solid 2px black ;
+     padding: 5px;
+    width: 200px;
+    box-sizing: border-box;
+    border: 20px rgb(rgb(61, 189, 61));
+    border-radius: 10px;
+}
